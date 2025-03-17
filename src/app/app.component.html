@@ -7,7 +7,7 @@
 <!-- * * * * * * * to get started with your project! * * * * * * * -->
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 
-<style>
+<!-- <style>
   :host {
     --bright-blue: oklch(51.01% 0.274 263.83);
     --electric-violet: oklch(53.18% 0.28 296.97);
@@ -319,9 +319,9 @@
   </div>
 
   <div class="card flex justify-center">
-    <p-button label="Check" />
+    <p-button label="Check" class="blah-blah" />
   </div>
-</main>
+</main> -->
 
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 <!-- * * * * * * * * * * * The content above * * * * * * * * * * * * -->
@@ -330,5 +330,91 @@
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 <!-- * * * * * * * * * * End of Placeholder  * * * * * * * * * * * * -->
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+
+<div class="bg-gray-100 min-h-screen flex items-center justify-center">
+  <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+    <h1 class="text-4xl font-bold mb-4">Welcome to TechBoost</h1>
+    <p class="text-lg mb-8">
+      In the ever-evolving world of technology, staying ahead requires
+      continuous learning and skill enhancement. TechBoost is an AI-powered
+      personal trainer designed to help tech professionals elevate their
+      expertise effortlessly.
+    </p>
+    <p-button
+      label="Get Started"
+      class="p-button-raised p-button-primary"
+    ></p-button>
+  </div>
+</div>
+
+<div class="bg-white py-12">
+  <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+    <h2 class="text-3xl font-bold mb-8 text-center">Key Features</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+      <div class="p-6 bg-gray-50 rounded-lg shadow-md">
+        <h3 class="text-xl font-bold mb-2">AI-Powered Personal Trainer</h3>
+        <p class="text-gray-600">
+          Get personalized learning paths tailored to your needs.
+        </p>
+      </div>
+      <div class="p-6 bg-gray-50 rounded-lg shadow-md">
+        <h3 class="text-xl font-bold mb-2">Skill Enhancement</h3>
+        <p class="text-gray-600">
+          Continuous learning to stay ahead in the tech industry.
+        </p>
+      </div>
+      <div class="p-6 bg-gray-50 rounded-lg shadow-md">
+        <h3 class="text-xl font-bold mb-2">Interactive Learning</h3>
+        <p class="text-gray-600">
+          Engage with interactive content and quizzes.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="bg-gray-100 py-12">
+  <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+    <h2 class="text-3xl font-bold mb-8 text-center">What Our Users Say</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+      <div class="p-6 bg-white rounded-lg shadow-md">
+        <p class="text-gray-600 mb-4">
+          "TechBoost has transformed my learning experience. The personalized
+          paths are incredibly helpful!"
+        </p>
+        <p class="text-gray-800 font-bold">- John Doe, Tech Professional</p>
+      </div>
+      <div class="p-6 bg-white rounded-lg shadow-md">
+        <p class="text-gray-600 mb-4">
+          "The interactive content keeps me engaged and motivated to learn
+          more."
+        </p>
+        <p class="text-gray-800 font-bold">- Jane Smith, Software Engineer</p>
+      </div>
+      <div class="p-6 bg-white rounded-lg shadow-md">
+        <p class="text-gray-600 mb-4">
+          "TechBoost's AI is so intuitive, it feels like having a real trainer
+          by your side."
+        </p>
+        <p class="text-gray-800 font-bold">- Alex Johnson, DevOps Engineer</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="bg-gray-800 py-12">
+  <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+    <h2 class="text-3xl font-bold mb-8 text-white">
+      Ready to Elevate Your Expertise?
+    </h2>
+    <p class="text-lg mb-8 text-gray-300">
+      Join TechBoost today and start your journey to becoming a tech pro.
+    </p>
+    <p-button
+      label="Get Started"
+      class="p-button-raised p-button-success"
+    ></p-button>
+  </div>
+</div>
 
 <router-outlet />
